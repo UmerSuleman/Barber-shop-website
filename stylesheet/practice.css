@@ -6,7 +6,7 @@
 }
 #banner
 {
-    background-image: linear-gradient(rgba(0,0,0,0.5),#009688), url("./Barber_Shop_img/Barber_Shop_img/banner.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),#00964b), url("./Barber_Shop_img/Barber_Shop_img/banner.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;

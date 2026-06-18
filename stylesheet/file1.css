@@ -1,0 +1,66 @@
+    .a {
+        background-color: blue;
+        color: white;
+        padding: 5px 30px;
+        border-radius: 50px;
+        margin-top: 15px;
+        text-decoration: none;
+    }
+
+    .file-2 {
+        background-color: purple;
+        color: yellow;
+    }
+
+    .p {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .ul,
+    .ol {
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .ulli {
+        /* list-style-type: square; */
+        text-align: left;
+    }
+
+    .olli {
+        /* list-style-type: upper-roman; */
+        text-align: left;
+    }
+
+    .heading {
+        color: white;
+        background-color: chocolate;
+        font-size: 30px;
+        width: 500px;
+        padding: 0 10px;
+        border-radius: 10px;
+    }
+
+    .div {
+        background-color: lightgray;
+        padding: 10px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+@media (max-width: 768px) {
+    .p{
+        font-size: 15px;
+    }
+    .hidden{
+        display: none;
+    }
+    .div{
+        text-align: center;
+    }
+    
+}

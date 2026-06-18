@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop Website Design</title>
 
-    <link rel="stylesheet" href="./stylesheet/about.css">
+    <link rel="stylesheet" href="./stylesheet/contect.css">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,10 +16,10 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
-    <section id="banner">
+        <section id="banner">
 <img src="./stylesheet/Barber_Shop_img/Barber_Shop_img/logo.png" class="logo"> 
 <div class="banner-text">
-    <h1>About Us</h1>
+    <h1>Contact Us</h1>
 </div>
 </section>  
 <div id="sideNav">
@@ -36,20 +36,40 @@
 <div id="menuBtn">
     <img src="./stylesheet/Barber_Shop_img/Barber_Shop_img/menu.png" id="menu">
 </div>
-<main id="content">
- <div class="single-service">
-            <img src="./stylesheet/Barber_Shop_img/Barber_Shop_img/pic-1.jpg">
-            <div class="service-desc">
-                <p>this is test under description of barber foundation this is test under description of barber foundation.</p>
-            </div>
+<form class="contect-form" action="#" method="post">
+        <input type="text" placeholder="Your Name" required id="">
+        <input type="email" placeholder="Your Email" required id="email">
+        <input type="text" placeholder="Subject" required id="subject">
+        <textarea rows="6" placeholder="Your Message" required id="message"></textarea>
+        <button type="submit" id="button">Send Message</button>
+    </form>
+<section id="footer">
+    <img src="./stylesheet/Barber_Shop_img/Barber_Shop_img/footer-img.png" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit Shop Today</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p> <i class="fa fa-clock-o"></i> Monday to Friday - 9am to 9pm</p>
+            <p> <i class="fa fa-clock-o"></i> Satureday to Sunday - 8am to 11pm</p>
         </div>
-        <div class="row">
-            <img src="./stylesheet/Barber_Shop_img/Barber_Shop_img/pic-2.jpg">
-            <div class="right">
-                <p>this is test under description of barber foundation this is test under description of barber foundation.</p>
-            </div>
+        <div class="footer-right">
+            <h1>Getting Touch</h1>
+            <p>#30 abc Colony, xyz City IN<i class="fa fa-map-marker"></i></p>
+            <p>example@website.com<i class="fa fa-paper-plane"></i></p>
+            <p>+01 123456789<i class="fa fa-phone"></i></p>
         </div>
-</main>
+    </div>
+    <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube-play"></i>
+        <p>Copyright Muhammad Umer</p>
+    </div>
+   </section>
 <script>
    var menuBtn = document.getElementById("menuBtn");
     var sideNav = document.getElementById("sideNav");
